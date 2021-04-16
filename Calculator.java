@@ -2,7 +2,7 @@
  * class calculator
  *
  * @author Reza Aulia
- * @version 0.1
+ * @version 0.5
  */
 public class Calculator
 {
@@ -10,7 +10,7 @@ public class Calculator
     public int opA=0, opB=0;
     
     //informasi tentang class
-    public static final String info="Aplikasi Kalkulator By Reza Aulia";
+    public static final String info="Aplikasi calculator by Reza Aulia";
     /**
      * Constructor untuk proyek calculator dengan parameter
      */
@@ -18,7 +18,7 @@ public class Calculator
     {
         this.opA=opA;
         this.opB=opB;
-        System.out.println("Obyek Calculator dengan parameter telah dibuat");
+        System.out.println("calculator dengan parameter telah dibuat");
     }
 
     /**
@@ -26,10 +26,8 @@ public class Calculator
      */
     public Calculator()
     {
-       System.out.println("Obyek Calculator tanpa parameter telah dibuat");
+       System.out.println("calculator tanpa parameter telah dibuat");
     }
-    
-    
     
     /**
      * penjumlahan
@@ -42,8 +40,8 @@ public class Calculator
     public int penjumlahan(int opA,int opB)
     {
         return opA + opB;
-        
     }
+    
     /**
      * pengurangan
      *
@@ -55,8 +53,8 @@ public class Calculator
     public int pengurangan(int opA,int opB)
     {
         return opA - opB;
-        
     }
+    
      /**
      * Perkalian
      *
@@ -68,8 +66,8 @@ public class Calculator
     public int Perkalian(int opA,int opB)
     {
         return opA * opB;
-        
     }
+    
     /**pembagian
      *
      * @param int operan 1
@@ -80,9 +78,5 @@ public class Calculator
     public double pembagian(double opA,double opB)
     {
         return opA / opB;
-        
     }
-    
-    
-    
 }
